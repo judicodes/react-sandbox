@@ -1,7 +1,8 @@
 import "./App.css";
+import UseRefExample3 from "./components/UseRefExample3";
 
 function App() {
-  return <h3>Hello React</h3>;
+  return <UseRefExample3 />;
 }
 
 export default App;
