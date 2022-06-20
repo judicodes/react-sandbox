@@ -1,8 +1,8 @@
 import "./App.css";
-import UseRefExample3 from "./components/UseRefExample3";
+import UseMemoExample from "./components/UseMemoExample";
 
 function App() {
-  return <UseRefExample3 />;
+  return <UseMemoExample />;
 }
 
 export default App;
