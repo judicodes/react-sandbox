@@ -1,8 +1,8 @@
 import "./App.css";
-import UseCallbackExample from "./components/UseCallbackExample";
+import CustomHookExample2 from "./components/CustomHookExample2";
 
 function App() {
-  return <UseCallbackExample />;
+  return <CustomHookExample2 />;
 }
 
 export default App;

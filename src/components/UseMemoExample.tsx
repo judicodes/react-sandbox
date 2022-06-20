@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 
 function UseMemoExample() {
   const [number, setNumber] = useState(1);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [increment, setIncrement] = useState(0);
 
   const sqrt = useMemo(() => expensiveSqrt(number), [number]);
